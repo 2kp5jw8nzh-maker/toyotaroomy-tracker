@@ -2,7 +2,7 @@ name: SGCarMart Tracker
 
 on:
   schedule:
-    - cron: '0 */4 * * *' # Runs every 4 hours
+    - cron: '0 8 * * *' # Runs once every day at 8:00 AM UTC
   workflow_dispatch: # Lets you run it manually from GitHub anytime
 
 permissions:
